@@ -1,0 +1,311 @@
+.principal{
+    height: 100%;
+    width: 80%;
+    /* background-color: rgba(235, 214, 169, 0.615); */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.cuerpo .imagennesgalaxia{
+    height: 200px;
+    width: 150px;
+
+}
+.title{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+/*letras*/
+.principal p{
+    font-size: 17px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    color: aliceblue;
+    transition: 2s;
+   
+}
+
+.principal h1{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    transition: 2s;
+}
+
+.principal h1:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgb(255, 255, 255);
+}
+
+
+/* p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 2s;
+} */
+
+p:hover{
+    background-color: rgba(255, 255, 255, 0.552);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header*/
+header{
+    background-color: rgba(6, 66, 135, 0.607); 
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 1;
+}
+.cabeza{
+    height: 120px;
+    width: 80%;
+    /* background-color: rgba(23, 21, 21, 0.566); */
+    margin-left: 100px;
+    position: fixed;  
+}
+
+.titulos1{
+    margin-top: 80px;
+    margin-left: 100px;
+    
+}
+.titulos1 li{
+    display: inline;
+    margin-top: 50px;
+}
+.titulos1 li a{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+    margin-left: 50px;
+    
+}
+.cabeza{
+    height: 120px;
+    width: 80%;
+    /* background-color: rgba(23, 21, 21, 0.566); */
+    margin-left: 100px;
+    position: fixed;
+    
+}
+.titulo{
+    height: 120px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.titulo h1{
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Lobster', cursive;
+}
+.flotante{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(15, 15, 176)  ;
+}
+
+
+
+.titulo h1:hover{
+    color: brown;
+}
+/*navegacion*/
+.navegacion li{
+    display: inline;
+    float: right;
+    margin-top: 83px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+   
+    
+}
+.navegacion li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navegacion{
+    height: 120px;
+    width: 30%;
+    
+    /* background-color: rgb(3, 2, 4);  */
+    float: right;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
+    margin-right: 100px;
+   
+
+    
+   
+}
+
+.navegacion li a:hover{
+    color: brown;  
+}
+
+.titulos1 li a:hover{
+    color: brown;  
+}
+
+
+
+
+/*-----------------------*/
+
+
+
+.elemento1{
+    text-align: center;
+    grid-column: 1/3;
+
+    
+}
+.ancho .logo a:hover{
+    color: aquamarine;
+
+}
+
+.ancho .navegar a:hover{
+    color: aquamarine;
+}
+
+.elemento4{
+    grid-column: 1/3;
+}
+
+.elemento5{
+    grid-column: 1/3;
+}
+.elemento1 p{
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+.elemento2{
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/**/
+/* p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 2s;
+}
+
+p:hover{
+    background-color: black;
+    color: aliceblue;
+} */
+
+
+
+
+/*----*/
+h2{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.804);
+    text-align: center;
+}
+.elemento8{
+    grid-column: 1/3;
+
+}
+.elemento8 p{
+    text-align: center;
+}
+.elemento9{
+    grid-column: 1/3;
+}
+.elemento12{
+    grid-column: 1/3;
+}
+.elemento13{
+    grid-column: 1/3;
+}
+.elemento15{
+    grid-column: 1/3;
+}
+.elemento16{
+    grid-column: 1/3;
+}
+.elemento19{
+    grid-column: 1/3;
+}
+.elemento20{
+    grid-column: 1/3;
+}
+.elemento22{
+    grid-column: 1/3;
+}
+.elemento23{
+    grid-column: 1/3;
+}
+.elemento25{
+    grid-column: 1/3;
+}
+.elemento26{
+    grid-column: 1/3;
+}
+.elemento28{
+    grid-column: 1/3;
+}
+.elemento29{
+    grid-column: 1/3;
+}
+
+.piedepagina{
+    height: 200px;
+    width: 100%;
+    /* background-color: rgb(125, 96, 34); */
+    margin-top: 60px;
+    padding-top: 30px;
+    background-color: rgba(159, 82, 10, 0.968);
+
+}
+
